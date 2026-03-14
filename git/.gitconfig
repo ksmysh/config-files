@@ -1,0 +1,21 @@
+[user]
+        name = <NAME SURNAME>
+        email = <EMAIL ADDRESS>
+        signingkey = /Users/<USERNAME>/.ssh/id_ed25519.pub
+[init]
+        defaultBranch = main
+[alias]
+        hist = log --graph --abbrev-commit --decorate --all --format=format:\"%C(bold blue)%h%C(reset) - %C(bold green) (%ar)%C(reset) %C(white) %s%C(reset) %C(dim white) - %an%C(reset) %C(auto) %d%C(reset)\"
+        got = git
+        gut = git
+[core]
+        excludesfile = /Users/<USERNAME>/.gitignore
+[filter "lfs"]
+        required = true
+        clean = git-lfs clean -- %f
+        smudge = git-lfs smudge -- %f
+        process = git-lfs filter-process
+[commit]
+        gpgsign = true
+[gpg]
+        format = ssh
