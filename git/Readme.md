@@ -1,4 +1,5 @@
 # Description
+- Values from `.gitconfig` file in <> signs should be replaced with actual values
 - Initial Git setup is available at the [official documentation](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 - Setting up `git hist` alias is done by the command
 ```shell
