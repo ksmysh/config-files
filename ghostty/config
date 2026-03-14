@@ -1,0 +1,7 @@
+font-size = 16
+theme = GitHub Dark Dimmed
+background-opacity = 0.85
+background-blur = true
+window-height = 36
+window-width = 116
+macos-titlebar-style = transparent
