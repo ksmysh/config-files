@@ -83,7 +83,7 @@ symbol = " "
 symbol = " "
 
 [fill]
-symbol = '_'
+symbol = ' '
 
 [fortran]
 symbol = " "
