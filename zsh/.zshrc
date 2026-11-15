@@ -89,7 +89,7 @@ export PATH="/opt/homebrew/opt/sqlite/bin:$PATH"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git macos docker docker-compose zsh-autosuggestions zsh-syntax-highlighting zsh-history-substring-search poetry poetry-env uv uv-env)
+plugins=(git macos docker docker-compose zsh-autosuggestions zsh-syntax-highlighting zsh-history-substring-search poetry poetry-env uv uv-env fnm npm)
 
 source $ZSH/oh-my-zsh.sh
 
